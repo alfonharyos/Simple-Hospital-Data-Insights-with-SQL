@@ -298,13 +298,13 @@ docker-compose up -d
     - Host: `localhost`      
     (if you're running Docker on your local machine)
     - Port: `3307`      
-    (the host port you specified in ports)
+    (the port you specified in the `ports` section)
     - User: `myuser`        
-    (the username you specified in MYSQL_USER)
+    (the username you specified in `MYSQL_USER`)
     - Password: `mypassword`        
-    (the password you specified in MYSQL_PASSWORD)
+    (the password you specified in `MYSQL_PASSWORD`)
     - Database: `healthcare_db`         
-    (the name of the database you specified in MYSQL_DATABASE)
+    (the name of the database you specified in `MYSQL_DATABASE`)
 
 ### 4. Import Schema and Data
 Once connected to the MySQL instance in DBeaver, you can manually execute the SQL files.
