@@ -258,8 +258,8 @@ Summarizes the distribution of bill payment statuses, showing both count and per
 ## How to Use
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd <your-project-folder>
+git clone https://github.com/alfonharyos/Simple-Hospital-Data-Insights-with-SQL.git
+cd Simple-Hospital-Data-Insights-with-SQL
 ```
 
 ### 2. Docker Compose Setup
